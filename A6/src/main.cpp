@@ -12,7 +12,7 @@ int main() {
     // Erfolgen bei Zerstörung auf dem Heap und bei Methodenaufrufen mit 2DVector als parameter.
     
     Matrix matrix = Matrix();
-    matrix.ausgabe();
+    //matrix.ausgabe();
     cout << endl;
 
     Vector2d a = Vector2d(3,1);
