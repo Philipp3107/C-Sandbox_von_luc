@@ -3,13 +3,14 @@
 
 class Matrix {
     public:
-        Matrix();
-        Matrix(int z, int s);
+        Matrix(char c);
+        Matrix(int z, int s, char c);
         ~Matrix();
         void ausgabe();
     protected:
         int m_zeilen, m_spalten;
         float m_element[2];
+        char name;
     
 
 };
