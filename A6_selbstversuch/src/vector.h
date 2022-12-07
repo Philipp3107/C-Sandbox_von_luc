@@ -5,7 +5,7 @@
 #define _VECTOR_H_
 
 
-class Vector : public Matrix{
+class vector : public Matrix{
     public:
         double betrag();
 };

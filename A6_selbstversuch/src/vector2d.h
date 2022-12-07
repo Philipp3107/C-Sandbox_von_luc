@@ -3,8 +3,7 @@
 #ifndef _VECTOR2D_H_
 #define _VECTOR2D_H_
 
-class vector2d : public Vector{
-
+class vector2d : public vector{
     public:
         vector2d();
         vector2d(int a, int b);
